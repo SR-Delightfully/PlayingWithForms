@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(134, 171, 203);
+}
+
+.form1 {
+    background-color: #ffffff80;
+    height: 24rem;
+    width: 20rem;
+    border: 2px solid #fff;
+    border-radius: 2rem;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1rem;
+}
+.form1 > div {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem   ;
+}
